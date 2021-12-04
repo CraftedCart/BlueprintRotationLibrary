@@ -1,6 +1,8 @@
 BlueprintRotationLibrary
 ========================
 
+**This repo is forked from https://github.com/CraftedCart/BlueprintRotationLibrary. This fork made the code a UE plugin. You can copy this plugin into your UE/Project plugins folder, it should just works(after compiling of course).**
+
 A collection of blueprint nodes to work with Quaternions within Unreal Engine's Blueprint scripting
 
 ![Blueprint nodes](Nodes.png)
