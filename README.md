@@ -5,8 +5,9 @@ A collection of blueprint nodes to work with Quaternions within Unreal Engine's 
 
 ![Blueprint nodes](Nodes.png)
 
-Just copy-n-paste the .cpp and .h files somewhere into your project's source, **and be sure to replace `PROJECTNAME_API`
-with your own `_API` macro** in BlueprintRotationLibrary.h, line 8.
+Just copy the whole folder into your **EnginePath**\Engine\Plugins, or **ProjectPath**\Plugins if you prefer. 
+
+It's enabled by default, you can of course disable it in the BlueprintQuaternionLibrary.uplugin or in your project plugin settings.
 
 I don't care what you do with this, I put this into the public domain. It's mostly just wrappers around FQuat functions
 anyway. <3

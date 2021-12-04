@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Blueprint Quaternion Library",
+	"Description": "Expose Quaternion functions to Blueprint",
+	"Category": "Math",
+	"CreatedBy": "CraftedCart",
+	"CreatedByURL": "https://github.com/CraftedCart/BlueprintRotationLibrary",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"EnabledByDefault" : true,
+	"Modules" :
+	[
+		{
+			"Name" : "BlueprintQuaternionLibrary",
+			"Type" : "Runtime",
+			"LoadingPhase" : "Default"
+		}
+	]
+}
