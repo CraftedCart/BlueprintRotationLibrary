@@ -5,7 +5,7 @@
 #include "BlueprintRotationLibrary.generated.h"
 
 UCLASS()
-class PROJECTNAME_API UBlueprintRotationLibrary : public UObject
+class BLUEPRINTQUATERNIONLIBRARY_API UBlueprintRotationLibrary : public UObject
 {
     GENERATED_BODY()
 

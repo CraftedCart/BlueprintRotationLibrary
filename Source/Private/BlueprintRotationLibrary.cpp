@@ -10,22 +10,22 @@ FQuat UBlueprintRotationLibrary::FastLerp(const FQuat& A, const FQuat& B, const 
     return FQuat::FastLerp(A, B, Alpha);
 }
 
-FQuat UBlueprintRotationLibrary::BiLerp(const FQuat& P00, const FQuat& P10, const FQuat& P01, const FQuat& P11, const float & FracX, const float & FracY)
+FQuat UBlueprintRotationLibrary::BiLerp(const FQuat& P00, const FQuat& P10, const FQuat& P01, const FQuat& P11, const float& FracX, const float& FracY)
 {
     return FMath::BiLerp(P00, P10, P01, P11, FracX, FracY);
 }
 
-FQuat UBlueprintRotationLibrary::FastBiLerp(const FQuat& P00, const FQuat& P10, const FQuat& P01, const FQuat& P11, const float & FracX, const float & FracY)
+FQuat UBlueprintRotationLibrary::FastBiLerp(const FQuat& P00, const FQuat& P10, const FQuat& P01, const FQuat& P11, const float& FracX, const float& FracY)
 {
     return FQuat::FastBilerp(P00, P10, P01, P11, FracX, FracY);
 }
 
-FQuat UBlueprintRotationLibrary::Slerp(const FQuat& A, const FQuat& B, const float & Slerp)
+FQuat UBlueprintRotationLibrary::Slerp(const FQuat& A, const FQuat& B, const float& Slerp)
 {
     return FQuat::Slerp(A, B, Slerp);
 }
 
-FQuat UBlueprintRotationLibrary::Slerp_NotNormalized(const FQuat& A, const FQuat& B, const float & Slerp)
+FQuat UBlueprintRotationLibrary::Slerp_NotNormalized(const FQuat& A, const FQuat& B, const float& Slerp)
 {
     return FQuat::Slerp_NotNormalized(A, B, Slerp);
 }
